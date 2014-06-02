@@ -1,0 +1,11 @@
+{
+  "name": "res-json",
+  "version": "0.0.0",
+  "description": "Add res.json([status], obj) method to res. Takes (req, res, next) binds function and calls next express style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theQuazz",
+  "license": "MIT"
+}
