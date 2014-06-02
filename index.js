@@ -10,7 +10,11 @@ var json = function(code, obj) {
   this.end(JSON.stringify(obj));
 };
 
-module.exports = function jsonify(req, res, next) {
+function jsonify(req, res, next) {
   res.json = json;
   next();
+};
+
+module.exports = function(opts) {
+  return jsonify;
 };
